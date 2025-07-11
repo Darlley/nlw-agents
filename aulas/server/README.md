@@ -1,0 +1,1 @@
+Podemos criar as tabels diretamentea
