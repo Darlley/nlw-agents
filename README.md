@@ -96,7 +96,9 @@ export async function generateEmbeddings(text: string) {
 }
 ```
 
-E então com ajuda do Drizzle criamos uma Query para fazer uma busca de similaridade entre a pergunta e nossos embeddings disponíveis:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/26ed38fd-9170-41ef-b324-6060f9192134" />
+
+Com ajuda do Drizzle criamos uma Query para fazer uma busca de similaridade entre a pergunta e nossos embeddings disponíveis:
 
 ```ts
 const chunks = await db
